@@ -1,0 +1,19 @@
+{
+    "name": "magebuild/module-test",
+    "description": "Test packagist",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "Commercial"
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageBuild\\Test\\": ""
+        }
+    }
+}
