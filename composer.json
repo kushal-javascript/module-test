@@ -1,18 +1,22 @@
 {
     "name": "kushal-javascript/module-test",
-    "description": "Test",
+    "description": "A Magento 2 module Test",
     "type": "magento2-module",
-    "version": "1.0.0",
-    "license": "proprietary",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Ktpl\\RememberMe\\": ""
-        },
-        "files": [
-            "registration.php"
-        ]
-    },
+    "version": "0.1.0",
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": "true",
+    "license": "OSL-3.0",  
+    "require": {
+        "php": ">=5.4.0",
+        "kushal-javascript/module-test":"dev-master@dev"
+    },
+    "autoload": {
+      "files": 
+        [ 
+            "registration.php" 
+        ],
+      "psr-4": {
+            "Ktpl\\RememberMe\\": ""
+        }
+    }
 }
