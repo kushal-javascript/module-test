@@ -8,7 +8,7 @@
     "license": "OSL-3.0",  
     "require": {
         "php": ">=5.4.0",
-        "kushal-javascript/module-test":"dev-master@dev"
+        "kushal-javascript/module-test":"dev-master"
     },
     "autoload": {
       "files": 
