@@ -1,26 +1,16 @@
 {
     "name": "kushal-javascript/module-test",
-    "description": "Test packagist",
+    "description": "Test",
     "type": "magento2-module",
-    "version": "1.0.1",
-    "license": [
-      "OSL-3.0",
-      "AFL-3.0"
-    ],
+    "version": "1.0.0",
+    "license": "proprietary",
     "require": {},
-    "authors": [
-        {
-            "name": "Testing Composer",
-            "homepage": "http://www.test-composer.in/",
-            "role": "Developer"
-        }
-    ],
     "autoload": {
+        "psr-4": {
+            "Ktpl\\RememberMe\\": ""
+        },
         "files": [
             "registration.php"
-        ],
-        "psr-4": {
-            "MageBuild\\Test\\": ""
-        }
+        ]
     }
 }
